@@ -1,0 +1,95 @@
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+  position: relative;
+  text-align: center;
+  background-image:url('img/cat_eyes.png');
+}
+
+header {
+  position: absolute;
+}
+
+h1, button {
+  font-family: 'Coming Soon', arial;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+button {
+  font-size: 20px;
+  background-color: white;
+}
+
+.buttons {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+
+#meow_cat {
+  position: absolute;
+  height: 200px;
+  left: 0px;
+  top: -40px;
+}
+
+#flying_cat {
+  height: 100px;
+}
+#picked {
+  position: absolute;
+  height: 200px;
+  top: -40px;
+  right: 0px;
+}
+
+
+#confused_cat {
+  height: 200px;
+  position: fixed;
+  right: -50px;
+  bottom: -25px;
+}
+
+#cat_piles {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+}
+
+#bored_cat {
+  height: 200px;
+  position: fixed;
+  bottom: -5px;
+  right: 270px;
+}
+
+#squeeze_cats {
+  height: 100px;
+  position: fixed;
+  bottom: 0px;
+
+}
+
+#box_rolling_cat {
+  height: 110px;
+  width: auto;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+#walking_cat, #love_cat {
+  overflow: hidden;
+  position: relative;
+  width: 150px;
+}
+.flip-horizontal {
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1);
+    -ms-filter: fliph; /*IE*/
+    filter: fliph; /*IE*/
+}
